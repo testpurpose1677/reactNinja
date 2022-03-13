@@ -3,6 +3,7 @@ import './App.css';
 import {Greet1} from './components/Greet1';
 import Welcome from './components/Welcome';
 import Message from './components/Message';
+import Counter from './components/Counter';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
       <Welcome val="xxxxxx" name="name welcome"/>
   */}
   <Message/>
+  <Counter/>
     </div>
   );
 }
