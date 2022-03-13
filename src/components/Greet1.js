@@ -7,9 +7,10 @@ function Greet() {
         </div>
     )
 }
-export const Greet1 = props => { 
-    console.log(props);
-   return <h1>hello greet to {props.name} +++ {props.level} --- {props.children}</h1>
+export const Greet1 =(props) => {
+    const {name , level} = props; 
+    console.log(name);
+   return <h1>hello greet to {name} +++ {level} --</h1>
 }
 
     
