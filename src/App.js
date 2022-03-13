@@ -6,6 +6,7 @@ import Message from './components/Message';
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import EventBind from './components/EventBind';
+import Parent from './components/Parent';
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
   <Welcome val="xxxxxx" name="name welcome"/>
   <FunctionClick/>
   <EventBind/>
+  <Parent/>
     </div>
   );
 }
